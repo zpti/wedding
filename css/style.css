@@ -1,0 +1,172 @@
+/*style.css*/
+* {margin: 0; padding: 0;}
+a {text-decoration: none;}
+ul,ol {list-style-type: none;}
+html,body {height: 100%;}
+
+body{
+    color: #1b1b1b;
+    font-family: 'Nanum Myeongjo', "바탕체", serif;
+}
+.img_responsive{
+    width: 100%;
+}
+#main_header{
+    position: relative;
+    height: 100%;
+    /*background: #ccc;*/
+    text-align: right;
+    z-index: 99;
+}
+#main_header > h1{ 
+    font-size: 40px;
+    color: #3b3c34;
+    position: absolute;
+    left: 48px; top: 10px;
+    line-height: 1.5em;
+}
+#main_header > .info {
+    padding-top: 65px;
+    padding-right: 44px;
+    color: #3b3c34;
+}
+#main_header.name{
+    font-size: 22px;
+    line-height: 37.5px;
+}
+#main_visual{
+    position: relative;
+    left: 0; top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/main_visual@2x.jpg);
+    background-size: cover;
+}
+#intro{
+    text-align: center;
+    padding: 100px 0;
+    line-height: 2em;
+}
+
+#intro > h2{
+    font-size: 14px;
+    line-height: 28px;
+    color: #656757;
+    border-top: 1px solid #656757;
+    border-bottom: 1px solid #656757;
+    padding: 20px 0;
+    margin: 0 50px;
+}
+
+#intro > p {
+    font-size: 12px;
+    line-height: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#intro > .intro_name {
+    font-size: 12px;
+}
+#intro > .intro_name >span {
+    font-size: 16px;
+    font-weight: bold;
+}
+#intro address {
+    padding-top: 40px;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 24px;
+}
+#photo > .photo_list > li {
+    margin-bottom: 24px;
+}
+#photo > .photo_list > li:last-child {
+    margin-bottom: 0px;
+}
+#photo > .photo_list > li:nth-child(2){
+    overflow: hidden;
+    /*outline: 1px solid red;*/
+}
+#photo > .photo_list > li:nth-child(2) > div{
+    float: left;
+    width: 50%;
+}
+
+#photo > .photo_list > li:nth-child(2) > .right{
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+
+#photo > .photo_list > li:nth-child(2) > .right > h3{
+    width: 100%;
+    height: 100%;
+    padding-top: 40%;
+}
+
+#photo > .photo_list > li:nth-child(2) > .right > h3 > a {color: #656757;}
+
+#invitation{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#invitation h2, #invitation time{
+    font-size: 16px;
+    line-height: 36px;
+}
+
+#invitation time{
+
+}
+
+#invitation > .address{
+    font-size: 14px;
+    line-height: 28px;
+    color: #656757;
+    border-top: 1px solid #656757;
+    border-bottom: 1px solid #656757;
+    padding: 20px 0;
+    margin: 0 50px;
+    margin-top: 40px;
+}
+footer{
+    background: #656757;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+footer .transport li{
+    margin-bottom: 15px;
+}
+footer .transport li:last-child{
+    margin-bottom: 0;
+}
+
+#tel{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#tel h3{
+    font-size: 18px;
+    color: #656757;
+}
+#tel p{
+    position: relative;
+    font-size: 16px;
+    background: #656757;
+}
+
+#tel > p > a{
+    color: #fff;
+}
+
+
+#tel h3, #tel p{
+    line-height: 36px;
+}
